@@ -29,7 +29,7 @@ function draw() {
   stroke("black");
   strokeWeight(0);
   text("Press 'Space Bar' to oscillate the pendulum to left and right with mouse",10,20);
-  text("Press ANY to stop the Pendulum",100,50);
+  text("Press any button to make the pendulum swing",100,50);
   if(keyCode===32){
     pendulum.body.position.y = mouseY;
     pendulum.body.position.x = mouseX;
